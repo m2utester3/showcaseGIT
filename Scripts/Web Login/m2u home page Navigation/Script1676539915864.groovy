@@ -31,8 +31,6 @@ WebUI.click(findTestObject('Object Repository/m2u home page/Page_Maybank2u  Mayb
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/m2u home page/Page_Maybank2u Business  One Stop Digital S_523ae9/h1_Manage your business online with ease'))
-
 WebUI.verifyElementText(findTestObject('Object Repository/m2u home page/Page_Maybank2u Business  One Stop Digital S_523ae9/span_Login'), 
     'LOGIN')
 
