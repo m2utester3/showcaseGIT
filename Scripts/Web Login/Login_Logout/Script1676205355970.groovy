@@ -37,3 +37,5 @@ WebUI.click(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank 
 
 WebUI.delay(2)
 
+WebUI.closeBrowser()
+

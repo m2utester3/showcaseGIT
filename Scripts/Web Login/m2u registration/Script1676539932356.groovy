@@ -45,7 +45,5 @@ WebUI.click(findTestObject('m2u registration/spy/Page_Maybank2u  Maybank Malaysi
 
 WebUI.click(findTestObject('Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/img_Join us and become a Maybank2u user tod_06317a'))
 
-WebUI.click(findTestObject('Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/a_HELP  TIPS'))
-
 WebUI.closeBrowser()
 

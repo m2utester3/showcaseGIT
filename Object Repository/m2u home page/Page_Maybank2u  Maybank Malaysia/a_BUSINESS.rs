@@ -6,6 +6,10 @@
    <elementGuidId>36fcf336-89a2-424d-b610-fc2b34049441</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'BUSINESS' or . = 'BUSINESS')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//nav[@id='mainNav']/div/div/div[2]/div/ul/li[2]/a</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>li.hidden-xs > a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,15 +26,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>b06ba1a9-aa43-4876-9394-ddd6752d5d8b</webElementGuid>
+      <webElementGuid>17bbf3e5-7391-4629-9145-6d1f02fa9c78</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>https://www.maybank2u.com.my/maybank2u/malaysia/en/business/index.page</value>
-      <webElementGuid>d2f57f45-4dcc-4c03-ae45-fabbb207da6f</webElementGuid>
+      <webElementGuid>e6fceb22-7490-4480-925f-8ddb90ed1792</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>BUSINESS</value>
-      <webElementGuid>72d59fab-5478-4925-8909-d9bb90845efc</webElementGuid>
+      <webElementGuid>ec9204d7-5908-48f8-9dee-ff0d737cfe01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mainNav&quot;)/div[@class=&quot;container-fluid Header---heightInherit---3fY2U&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-7 col-sm-8 col-xs-7 Header---noPadRight---QLE8a&quot;]/div[@class=&quot;Header---rightSideHeader---4wodI&quot;]/ul[@class=&quot;nav navbar-nav white navbar-right Header---navbar-right-shift---28YOL&quot;]/li[@class=&quot;hidden-xs&quot;]/a[1]</value>
-      <webElementGuid>fcc068f2-6019-4dd4-a60d-716e418b2d8d</webElementGuid>
+      <webElementGuid>61dae72c-6c96-4a59-a6e1-40e6f5c246e8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//nav[@id='mainNav']/div/div/div[2]/div/ul/li[2]/a</value>
-      <webElementGuid>6a54e4e0-495c-4c5d-87cd-6860e7f926d1</webElementGuid>
+      <webElementGuid>87a43992-5c8b-4e65-a951-42a14b7a536a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'BUSINESS')]</value>
-      <webElementGuid>0008f310-6f32-4fd4-b260-a83953578b5f</webElementGuid>
+      <webElementGuid>c28768e0-1c4d-4708-96cd-9e7a3039adf3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PERSONAL'])[1]/following::a[1]</value>
-      <webElementGuid>b8c3da1c-eaa0-4335-8163-4b522bf624a3</webElementGuid>
+      <webElementGuid>e48546d0-7bb7-4c04-aa0c-268392534f31</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tap me if you need some help'])[1]/following::a[4]</value>
-      <webElementGuid>77ca4bea-c69d-45b0-a29c-48c95aaab3fe</webElementGuid>
+      <webElementGuid>9ab0b277-38e0-48f7-ac40-00336bbf94b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='HELP &amp; TIPS'])[1]/preceding::a[1]</value>
-      <webElementGuid>3c19d498-bdd9-481d-b753-e81d47075f42</webElementGuid>
+      <webElementGuid>7daa447b-d6eb-4016-b9f7-2dcee4b959e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='REGISTER NOW'])[1]/preceding::a[2]</value>
-      <webElementGuid>1feb36cd-cda3-4127-a34f-4381284c8d87</webElementGuid>
+      <webElementGuid>af7930ed-3f3f-412f-9cc3-8a8ab2f4f5c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://www.maybank2u.com.my/maybank2u/malaysia/en/business/index.page')]</value>
-      <webElementGuid>eb32d65e-eb73-40ba-8cd7-2639dc292655</webElementGuid>
+      <webElementGuid>3c7a8540-a368-42f2-92d1-32637901cee6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/a</value>
-      <webElementGuid>0f9e2278-0721-4418-b442-12bbc0fd7786</webElementGuid>
+      <webElementGuid>0f6951ff-70d4-4cae-8d06-6ebc8a2541c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'https://www.maybank2u.com.my/maybank2u/malaysia/en/business/index.page' and (text() = 'BUSINESS' or . = 'BUSINESS')]</value>
-      <webElementGuid>1d51adcf-8d26-4f95-a14c-19ee94816297</webElementGuid>
+      <webElementGuid>6dbd5dc4-320c-4fdc-8767-86780425d601</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

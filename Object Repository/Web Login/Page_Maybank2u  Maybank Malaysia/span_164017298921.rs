@@ -7,26 +7,26 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = '164017298921' or . = '164017298921')]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>div.col-lg-5.col-md-5.col-sm-6.col-xs-12.CardsContainer---even---1Hxv8 > div.Card---container---2DA8r > div.panel.panel-default > div.panel-body > div.Card---cardSummary---1Cw3s > div.Card---accountSummary---1S7jK > span.Card---accountNumber---1sg8I</value>
+         <value>//span[(text() = '164017298921' or . = '164017298921')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='scrollToDashboard']/div/div[4]/div[3]/div/div/div/div/div/div[3]/div/div/div/div/div/span[2]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-lg-5.col-md-5.col-sm-6.col-xs-12.CardsContainer---even---1Hxv8 > div.Card---container---2DA8r > div.panel.panel-default > div.panel-body > div.Card---cardSummary---1Cw3s > div.Card---accountSummary---1S7jK > span.Card---accountNumber---1sg8I</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>ffb239da-ffd6-463a-a9dc-7cf8546bd000</webElementGuid>
+      <webElementGuid>29292bea-c3c5-49b9-82d3-39a62effc819</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>Card---accountNumber---1sg8I</value>
-      <webElementGuid>abc6f96f-82ad-498b-b256-e995859c6a98</webElementGuid>
+      <webElementGuid>c652addd-04ff-40a5-9c78-fa72536342fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>164017298921</value>
-      <webElementGuid>e0862b39-0cfd-47ed-a487-107ac1aa2318</webElementGuid>
+      <webElementGuid>967de1ca-8843-4067-a770-12d275efb99a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;scrollToDashboard&quot;)/div[@class=&quot;Dashboard---container---2yC4Z&quot;]/div[@class=&quot;Dashboard---contentContainer---1JCRb Dashboard---noAccumulatedBal---3hN9T&quot;]/div[3]/div[@class=&quot;Dashboard---backgroundTile---LJ_N1&quot;]/div[@class=&quot;CardsContainer---cardsContainer---3qleo&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;CardsContainer---cards---DWLWF col-md-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-5 col-md-5 col-sm-6 col-xs-12 CardsContainer---even---1Hxv8&quot;]/div[@class=&quot;Card---container---2DA8r&quot;]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;panel-body&quot;]/div[@class=&quot;Card---cardSummary---1Cw3s&quot;]/div[@class=&quot;Card---accountSummary---1S7jK&quot;]/span[@class=&quot;Card---accountNumber---1sg8I&quot;]</value>
-      <webElementGuid>c93d02f7-1ef8-472c-8b4b-dd93a62425a7</webElementGuid>
+      <webElementGuid>0ad51167-e743-4431-b419-02b0e6c55adf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='scrollToDashboard']/div/div[4]/div[3]/div/div/div/div/div/div[3]/div/div/div/div/div/span[2]</value>
-      <webElementGuid>d74eb2df-5de9-436a-8720-9082472f9c3d</webElementGuid>
+      <webElementGuid>576127da-7e1b-4d33-a23d-b44ec2e8add4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Savings Account-i'])[1]/following::span[1]</value>
-      <webElementGuid>757bc0b3-e9c9-41f6-b925-ebfa9b858853</webElementGuid>
+      <webElementGuid>e58dc2ef-0594-44fe-ac1c-bb224a1379a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='RM'])[1]/following::span[3]</value>
-      <webElementGuid>86377c69-498e-4174-a7c9-0d02ee496d74</webElementGuid>
+      <webElementGuid>04b59b41-a1dd-46e7-8119-eeccd3e203a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='RM'])[2]/preceding::span[2]</value>
-      <webElementGuid>093ed71e-a54e-46c8-bccf-013386a0fde0</webElementGuid>
+      <webElementGuid>acb12db6-a0b0-4ffe-8659-afce559daebb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Get more from your money!'])[1]/preceding::span[4]</value>
-      <webElementGuid>ef255633-2557-4d46-9ddc-7cfa93d6427f</webElementGuid>
+      <webElementGuid>16205c11-8fa4-4c42-a304-063f6d574676</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='164017298921']/parent::*</value>
-      <webElementGuid>10ea120a-c223-405e-846f-1a95042044c0</webElementGuid>
+      <webElementGuid>b8ee3239-6b71-425d-846a-1d6f29658928</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div/div/div/span[2]</value>
-      <webElementGuid>06d544b2-cf8a-468f-a5a5-b648a266a632</webElementGuid>
+      <webElementGuid>7cfd2e30-f45c-4a69-8eea-e9715720bf51</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = '164017298921' or . = '164017298921')]</value>
-      <webElementGuid>cf3bd001-b202-4f14-8e1c-bec0bcaa4f02</webElementGuid>
+      <webElementGuid>c5a05674-de33-45dd-8c11-2f0ef1f660c4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

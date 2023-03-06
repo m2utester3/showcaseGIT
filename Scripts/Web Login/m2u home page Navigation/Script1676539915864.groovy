@@ -25,8 +25,6 @@ WebUI.navigateToUrl('https://www.maybank2u.com.my/home/m2u/common/login.do')
 
 WebUI.delay(2)
 
-WebUI.getText(findTestObject('Object Repository/m2u home page/Page_Maybank2u  Maybank Malaysia/a_PERSONAL'))
-
 WebUI.click(findTestObject('Object Repository/m2u home page/Page_Maybank2u  Maybank Malaysia/a_BUSINESS'))
 
 WebUI.delay(2)
