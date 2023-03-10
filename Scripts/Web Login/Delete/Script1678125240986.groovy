@@ -21,5 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.maybank2u.com.my/home/m2u/common/login.do')
 
+WebUI.delay(0)
+
 WebUI.closeBrowser()
 
