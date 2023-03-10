@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TestSuiteCollectionEntity>
+<ReportCollectionEntity>
    <description></description>
-   <name>Test suite collection</name>
+   <name>20230311_002112</name>
    <tag></tag>
-   <delayBetweenInstances>0</delayBetweenInstances>
-   <executionMode>PARALLEL</executionMode>
-   <maxConcurrentInstances>5</maxConcurrentInstances>
-   <testSuiteRunConfigurations>
-      <TestSuiteRunConfiguration>
-         <configuration>
+   <displayName>20230311_002112</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20230311_002112/Test suite folder 1/20230311_002114</reportLocation>
+         <runConfigDescription>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>true</requireConfigurationData>
@@ -28,12 +27,12 @@
                </entry>
             </runConfigurationData>
             <runConfigurationId>TestCloud</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Test suite folder 1</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20230311_002112/Test suite folder 2/20230311_002116</reportLocation>
+         <runConfigDescription>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>true</requireConfigurationData>
@@ -53,12 +52,12 @@
                </entry>
             </runConfigurationData>
             <runConfigurationId>TestCloud</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Test suite folder 2</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20230311_002112/Test suite folder 3/20230311_002118</reportLocation>
+         <runConfigDescription>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>true</requireConfigurationData>
@@ -78,12 +77,12 @@
                </entry>
             </runConfigurationData>
             <runConfigurationId>TestCloud</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Test suite folder 3</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20230311_002112/Test suite folder 4/20230311_002120</reportLocation>
+         <runConfigDescription>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>true</requireConfigurationData>
@@ -103,12 +102,12 @@
                </entry>
             </runConfigurationData>
             <runConfigurationId>TestCloud</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Test suite folder 4</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20230311_002112/Test suite folder 5/20230311_002122</reportLocation>
+         <runConfigDescription>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>true</requireConfigurationData>
@@ -128,12 +127,12 @@
                </entry>
             </runConfigurationData>
             <runConfigurationId>TestCloud</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Test suite folder 5</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-      <TestSuiteRunConfiguration>
-         <configuration>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20230311_002112/Test suite folder 6/20230311_002124</reportLocation>
+         <runConfigDescription>
             <groupName>Web Desktop</groupName>
             <profileName>default</profileName>
             <requireConfigurationData>true</requireConfigurationData>
@@ -153,9 +152,9 @@
                </entry>
             </runConfigurationData>
             <runConfigurationId>TestCloud</runConfigurationId>
-         </configuration>
-         <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Test suite folder 6</testSuiteEntity>
-      </TestSuiteRunConfiguration>
-   </testSuiteRunConfigurations>
-</TestSuiteCollectionEntity>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/Test suite collection</testSuiteCollectionId>
+</ReportCollectionEntity>

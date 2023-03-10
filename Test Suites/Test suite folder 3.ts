@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Test suite folder 2</name>
+   <name>Test suite folder 3</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,19 +10,19 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>85cc107a-965d-4dee-9855-e6da0f295632</testSuiteGuid>
+   <testSuiteGuid>758af4fb-848c-472a-a181-6c6a9af65eed</testSuiteGuid>
    <testCaseLink>
-      <guid>8c5cef86-cb1d-4e27-9cea-c098ca2eef76</guid>
+      <guid>3e1ce80c-f216-42eb-801a-7081a808d235</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Login/m2u home page Navigation</testCaseId>
+      <testCaseId>Test Cases/Web Login/m2u registration</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>224bafc2-9e63-4734-a46e-f939646c1ad5</guid>
+      <guid>ce98351f-d369-45e8-81b4-036ff495c0f4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Login/Transfer_OpenThirdParty</testCaseId>
+      <testCaseId>Test Cases/Web Login/m2u home page</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

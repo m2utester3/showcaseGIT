@@ -19,5 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.navigateToUrl('https://www.maybank2u.com.my/home/m2u/common/login.do')
+
 WebUI.closeBrowser()
 

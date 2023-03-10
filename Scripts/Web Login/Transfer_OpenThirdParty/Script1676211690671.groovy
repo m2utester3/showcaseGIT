@@ -37,7 +37,7 @@ WebUI.click(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank 
 
 WebUI.delay(2)
 
-WebUI.getText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_164017298921'))
+not_run: WebUI.getText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_164017298921'))
 
 WebUI.takeScreenshot()
 
@@ -157,9 +157,9 @@ WebUI.verifyElementText(findTestObject('Object Repository/Web Login/Page_Maybank
 
 WebUI.getText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_Transfer from   Savings Account-i 16401_e08176'))
 
-WebUI.getText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/p_3665246747'))
+not_run: WebUI.getText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/p_3665246747'))
 
-WebUI.getText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/p_Successful'))
+not_run: WebUI.getText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/p_Successful'))
 
 WebUI.delay(3)
 
