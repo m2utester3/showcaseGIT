@@ -37,7 +37,7 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_LOGIN'))
 
-WebUI.delay(2)
+WebUI.delay(4)
 
 WebUI.takeScreenshot()
 
