@@ -35,7 +35,7 @@ WebUI.setText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Mayban
 
 WebUI.click(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_LOGIN'))
 
-WebUI.delay(20)
+WebUI.delay(5)
 
 WebUI.closeBrowser()
 

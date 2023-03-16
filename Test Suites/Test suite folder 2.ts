@@ -12,17 +12,10 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>85cc107a-965d-4dee-9855-e6da0f295632</testSuiteGuid>
    <testCaseLink>
-      <guid>8c5cef86-cb1d-4e27-9cea-c098ca2eef76</guid>
+      <guid>3e13095c-d794-45ab-bc92-364c14e55488</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Login/m2u home page Navigation</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>224bafc2-9e63-4734-a46e-f939646c1ad5</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Login/Transfer_OpenThirdParty</testCaseId>
+      <testCaseId>Test Cases/Web Login/m2u home page</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

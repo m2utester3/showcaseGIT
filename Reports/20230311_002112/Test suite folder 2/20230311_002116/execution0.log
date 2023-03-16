@@ -1027,7 +1027,7 @@
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
-</log><record>
+<record>
   <date>2023-03-11T00:23:59</date>
   <millis>1678465439622</millis>
   <sequence>179</sequence>
@@ -5533,3 +5533,4 @@ Transfer_OpenThirdParty.run(Transfer_OpenThirdParty:155)
   <nestedLevel>1</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
+</log>

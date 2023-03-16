@@ -12,17 +12,10 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>758af4fb-848c-472a-a181-6c6a9af65eed</testSuiteGuid>
    <testCaseLink>
-      <guid>3e1ce80c-f216-42eb-801a-7081a808d235</guid>
+      <guid>9e54345f-a07e-40f5-8a6d-c5b8326de464</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Login/m2u registration</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ce98351f-d369-45e8-81b4-036ff495c0f4</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Login/m2u home page</testCaseId>
+      <testCaseId>Test Cases/Web Login/m2u home page Navigation</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Test suite folder 4</name>
+   <name>Test suite folder 7</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,12 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>ac2c8ca6-2db4-482c-85e4-f328e9388e96</testSuiteGuid>
+   <testSuiteGuid>e2dcc7ad-5d42-44f9-a8af-8cd1d734df3e</testSuiteGuid>
    <testCaseLink>
-      <guid>6d6d3d4c-8ee3-494a-aa2f-89463ebd6dfe</guid>
+      <guid>5dfc3a33-da9b-4128-bea3-99fe0c7c6004</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Login/m2u registration</testCaseId>
+      <testCaseId>Test Cases/Web Login/apply cards</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

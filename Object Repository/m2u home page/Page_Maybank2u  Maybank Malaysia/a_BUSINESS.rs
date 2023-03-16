@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'BUSINESS' or . = 'BUSINESS')]</value>
+         <value>//a[(text() = 'BUSINESS' or . = 'BUSINESS')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -21,12 +21,12 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>17bbf3e5-7391-4629-9145-6d1f02fa9c78</webElementGuid>
+      <webElementGuid>94225172-3e2b-4f95-b939-190e43dcd792</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://www.maybank2u.com.my/maybank2u/malaysia/en/business/index.page</value>
-      <webElementGuid>e6fceb22-7490-4480-925f-8ddb90ed1792</webElementGuid>
+      <webElementGuid>32ccc7b4-7d3e-4d4d-adef-779ebcabe874</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>BUSINESS</value>
-      <webElementGuid>ec9204d7-5908-48f8-9dee-ff0d737cfe01</webElementGuid>
+      <webElementGuid>e83b6067-2144-43c3-8483-f89acb44e020</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mainNav&quot;)/div[@class=&quot;container-fluid Header---heightInherit---3fY2U&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-7 col-sm-8 col-xs-7 Header---noPadRight---QLE8a&quot;]/div[@class=&quot;Header---rightSideHeader---4wodI&quot;]/ul[@class=&quot;nav navbar-nav white navbar-right Header---navbar-right-shift---28YOL&quot;]/li[@class=&quot;hidden-xs&quot;]/a[1]</value>
-      <webElementGuid>61dae72c-6c96-4a59-a6e1-40e6f5c246e8</webElementGuid>
+      <webElementGuid>0555aab6-6478-4583-8601-1453ed005ae2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//nav[@id='mainNav']/div/div/div[2]/div/ul/li[2]/a</value>
-      <webElementGuid>87a43992-5c8b-4e65-a951-42a14b7a536a</webElementGuid>
+      <webElementGuid>9fdb22e1-6c9c-4a33-8367-261a7a48fc95</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'BUSINESS')]</value>
-      <webElementGuid>c28768e0-1c4d-4708-96cd-9e7a3039adf3</webElementGuid>
+      <webElementGuid>41327c4c-f774-4aa7-9b7b-2840d83db6fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PERSONAL'])[1]/following::a[1]</value>
-      <webElementGuid>e48546d0-7bb7-4c04-aa0c-268392534f31</webElementGuid>
+      <webElementGuid>2627439e-c183-441c-8921-fc5d44b103d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tap me if you need some help'])[1]/following::a[4]</value>
-      <webElementGuid>9ab0b277-38e0-48f7-ac40-00336bbf94b4</webElementGuid>
+      <webElementGuid>a970858f-615a-476f-90d2-e89329265764</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='HELP &amp; TIPS'])[1]/preceding::a[1]</value>
-      <webElementGuid>7daa447b-d6eb-4016-b9f7-2dcee4b959e5</webElementGuid>
+      <webElementGuid>76223f8d-7191-49b9-aa9e-ff21440c4358</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='REGISTER NOW'])[1]/preceding::a[2]</value>
-      <webElementGuid>af7930ed-3f3f-412f-9cc3-8a8ab2f4f5c9</webElementGuid>
+      <webElementGuid>4664433b-220d-4a3f-ad0e-d3d837f754aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://www.maybank2u.com.my/maybank2u/malaysia/en/business/index.page')]</value>
-      <webElementGuid>3c7a8540-a368-42f2-92d1-32637901cee6</webElementGuid>
+      <webElementGuid>2418a324-a5a8-43b1-98b5-d72b3c32a3a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/a</value>
-      <webElementGuid>0f6951ff-70d4-4cae-8d06-6ebc8a2541c1</webElementGuid>
+      <webElementGuid>1aaa2193-8de8-4a3b-8a5e-7dcab53cf59e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,6 +122,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'https://www.maybank2u.com.my/maybank2u/malaysia/en/business/index.page' and (text() = 'BUSINESS' or . = 'BUSINESS')]</value>
-      <webElementGuid>6dbd5dc4-320c-4fdc-8767-86780425d601</webElementGuid>
+      <webElementGuid>71547acb-d8ba-4206-b24d-65b29dce86c8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

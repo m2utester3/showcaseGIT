@@ -21,7 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.maybank2u.com.my/home/m2u/common/login.do')
 
-WebUI.delay(3)
+WebUI.click(findTestObject('Object Repository/apply loans/Page_Maybank2u  Maybank Malaysia/span_Get a Loan'))
+
+WebUI.click(findTestObject('Object Repository/apply loans/Page_Loans  Maybank Malaysia/button_Discover'))
 
 WebUI.closeBrowser()
 

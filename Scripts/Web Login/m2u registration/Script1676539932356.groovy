@@ -41,7 +41,5 @@ WebUI.click(findTestObject('Object Repository/m2u registration/Page_Maybank2u  M
 
 WebUI.getText(findTestObject('Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/span_Invalid Card Access Number'))
 
-WebUI.click(findTestObject('Object Repository/m2u registration/Page_Maybank2u  Maybank Malaysia/img_Join us and become a Maybank2u user tod_06317a'))
-
 WebUI.closeBrowser()
 

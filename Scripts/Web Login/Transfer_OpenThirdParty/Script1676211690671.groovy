@@ -33,27 +33,13 @@ WebUI.click(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank 
 WebUI.setText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/input_Hello_my-password-input'), 
     findTestData('DevOps').getValue(2, 1))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_LOGIN'))
 
 WebUI.delay(2)
 
-not_run: WebUI.getText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_164017298921'))
-
 WebUI.takeScreenshot()
-
-not_run: WebUI.click(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_164017298921'))
-
-not_run: WebUI.getText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Late clearingOutstation cheque float'))
-
-not_run: WebUI.scrollToElement(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Late clearingOutstation cheque float'), 
-    0)
-
-not_run: WebUI.getText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_All Transaction History'))
-
-not_run: WebUI.scrollToElement(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_All Transaction History'), 
-    0)
-
-not_run: WebUI.getText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/th_DESCRIPTION'))
 
 WebUI.click(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/a_MY ACCOUNTS'))
 
@@ -123,23 +109,6 @@ WebUI.click(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank 
 
 WebUI.click(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/a_MY ACCOUNTS'))
 
-not_run: WebUI.click(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_164017298921'))
-
-not_run: WebUI.getText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Late clearingOutstation cheque float'))
-
-not_run: WebUI.scrollToElement(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_Late clearingOutstation cheque float'), 
-    0)
-
-not_run: WebUI.getText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/th_DESCRIPTION'))
-
-not_run: WebUI.scrollToElement(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/th_DESCRIPTION'), 
-    0)
-
-not_run: WebUI.getText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_MOHAMMAD MOSAJ GOHA DevOps test'))
-
-not_run: WebUI.verifyElementText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/span_MOHAMMAD MOSAJ GOHA DevOps test'), 
-    'MOHAMMAD MOSAJ GOHA* DevOps test')
-
 WebUI.click(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_ACCOUNTS'))
 
 WebUI.delay(2)
@@ -156,10 +125,6 @@ WebUI.verifyElementText(findTestObject('Object Repository/Web Login/Page_Maybank
     'You have logged out!')
 
 WebUI.getText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/div_Transfer from   Savings Account-i 16401_e08176'))
-
-not_run: WebUI.getText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/p_3665246747'))
-
-not_run: WebUI.getText(findTestObject('Object Repository/Web Login/Page_Maybank2u  Maybank Malaysia/p_Successful'))
 
 WebUI.delay(3)
 

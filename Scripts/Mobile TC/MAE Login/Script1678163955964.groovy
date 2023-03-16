@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.maybank2u.life')
 
+Mobile.startApplication('', false)
+
 Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Maybank2u'), 0)
 
 Mobile.tap(findTestObject(''), 0)
