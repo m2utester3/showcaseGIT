@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('com.xe.currency', false)
 
+Mobile.takeScreenshot()
+
 Mobile.getText(findTestObject('Object Repository/Mobile - XE/android.widget.TextView - Convert'), 0)
 
 Mobile.takeScreenshot()
