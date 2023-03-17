@@ -17,41 +17,49 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('com.maybank2u.life', false)
+Mobile.startExistingApplication('com.maybank2u.life', FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.takeScreenshot()
+Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\M2U\\1.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.getText(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Skip'), 0)
+
+Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\M2U\\2.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Skip'), 0)
 
 Mobile.getText(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Agree'), 0)
 
-Mobile.takeScreenshot('', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\M2U\\3.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Agree'), 0)
 
 Mobile.getText(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Hello'), 0)
+
+Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\M2U\\4.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Hello'), 0)
 
 Mobile.getText(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Existing M2UMAE user Log in here'), 
     0)
 
-Mobile.takeScreenshot('', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\M2U\\5.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Existing M2UMAE user Log in here'), 
     0)
 
 Mobile.getText(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Login to Maybank2u'), 0)
 
-Mobile.setText(findTestObject('MAE Onboarding/android.widget.EditText'), 'mosajgohar1', 0)
+Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\M2U\\6.png', FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.setText(findTestObject('MAE Onboarding/android.widget.EditText'), 'mdmosgohar1', 0)
 
 Mobile.hideKeyboard()
 
-Mobile.takeScreenshot('', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\M2U\\7.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.getText(findTestObject('MAE Onboarding/android.widget.TextView - Continue'), 0)
+
+Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\M2U\\8.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('MAE Onboarding/android.widget.TextView - Continue'), 0)
 
@@ -59,124 +67,13 @@ Mobile.getText(findTestObject('Object Repository/MAE Onboarding/android.widget.T
 
 Mobile.getText(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Yes, Its Mine'), 0)
 
-Mobile.takeScreenshot('', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\M2U\\9.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Yes, Its Mine'), 0)
 
 Mobile.getText(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Enter your password'), 0)
 
-Mobile.setText(findTestObject('Object Repository/MAE Onboarding/android.widget.EditText (1)'), findTestData('DevOps').getValue(
-        2, 1), 0)
-
-Mobile.hideKeyboard()
-
-Mobile.getText(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Continue (1)'), 0)
-
-Mobile.tap(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Continue (1)'), 0)
-
-Mobile.getText(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Create your PIN for the app'), 
-    0)
-
-Mobile.takeScreenshot('', FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.tap(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - 1'), 0)
-
-Mobile.tap(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - 1'), 0)
-
-Mobile.tap(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - 1'), 0)
-
-Mobile.tap(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - 1'), 0)
-
-Mobile.tap(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - 1'), 0)
-
-Mobile.tap(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - 1'), 0)
-
-Mobile.takeScreenshot('', FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.tap(findTestObject('Object Repository/MAE Onboarding/android.widget.ImageView'), 0)
-
-Mobile.getText(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Confirm your 6-digit PIN'), 0)
-
-Mobile.tap(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - 1'), 0)
-
-Mobile.tap(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - 1'), 0)
-
-Mobile.tap(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - 1'), 0)
-
-Mobile.tap(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - 1'), 0)
-
-Mobile.tap(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - 1'), 0)
-
-Mobile.tap(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - 1'), 0)
-
-Mobile.takeScreenshot('', FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.tap(findTestObject('Object Repository/MAE Onboarding/android.widget.ImageView'), 0)
-
-Mobile.getText(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Set Up Later'), 0)
-
-Mobile.tap(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Set Up Later'), 0)
-
-Mobile.getText(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Verify Number'), 0)
-
-Mobile.getText(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Yes, Proceed'), 0)
-
-Mobile.takeScreenshot('', FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.tap(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Yes, Proceed'), 0)
-
-WebUI.delay(20)
-
-Mobile.takeScreenshot('', FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.tap(findTestObject('Object Repository/MAE Onboarding/android.widget.ImageView'), 0)
-
-Mobile.getText(findTestObject('Object Repository/MAE Onboarding/android.widget.EditText - Enter your name'), 0)
-
-Mobile.setText(findTestObject('Object Repository/MAE Onboarding/android.widget.EditText - Enter your name'), 'Mayesha', 
-    0)
-
-Mobile.hideKeyboard()
-
-Mobile.getText(findTestObject('MAE Onboarding/android.widget.TextView - Continue'), 0)
-
-Mobile.takeScreenshot('', FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.tap(findTestObject('MAE Onboarding/android.widget.TextView - Continue'), 0)
-
-Mobile.getText(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Introducing Wallet'), 0)
-
-Mobile.tap(findTestObject('MAE Onboarding/android.widget.TextView - Continue'), 0)
-
-Mobile.getText(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Skip (1)'), 0)
-
-Mobile.tap(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Skip (1)'), 0)
-
-Mobile.getText(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Set Up Successful'), 0)
-
-Mobile.takeScreenshot('', FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.tap(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Done'), 0)
-
-Mobile.getText(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Mayesha'), 0)
-
-Mobile.takeScreenshot('', FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.getText(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Maybank2u'), 0)
-
-Mobile.tap(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Maybank2u'), 0)
-
-Mobile.getText(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Total Balance'), 0)
-
-Mobile.getText(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Savings Account-i'), 0)
-
-Mobile.takeScreenshot('', FailureHandling.CONTINUE_ON_FAILURE)
-
-Mobile.tap(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Savings Account-i'), 0)
-
-Mobile.getText(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Transfer'), 0)
-
-Mobile.tap(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Transfer'), 0)
+Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\M2U\\10.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.closeApplication()
 
