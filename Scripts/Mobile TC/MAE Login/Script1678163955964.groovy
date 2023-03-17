@@ -61,7 +61,8 @@ Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.Edi
 
 Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\MAE\\4.png', FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.setText(findTestObject('MAE Transfer/android.widget.EditText - M2U password'), 'Mayesha@2', 0)
+Mobile.setText(findTestObject('MAE Transfer/android.widget.EditText - M2U password'), findTestData('DevOps').getValue(2, 
+        1), 0)
 
 Mobile.hideKeyboard()
 
