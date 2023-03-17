@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.maybank2u.life')
 
-Mobile.getText(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Skip'), 0)
+Mobile.takeScreenshot()
 
-Mobile.takeScreenshot('1', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.getText(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Skip'), 0)
 
 Mobile.tap(findTestObject('Object Repository/MAE Onboarding/android.widget.TextView - Skip'), 0)
 

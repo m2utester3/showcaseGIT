@@ -21,9 +21,9 @@ not_run: Mobile.startExistingApplication('com.maybank2u.life')
 
 Mobile.startApplication('com.maybank2u.life', false)
 
-Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Maybank2u'), 0)
+Mobile.takeScreenshot()
 
-Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\MAE\\1.png', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Maybank2u'), 0)
 
 Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Maybank2u'), 0)
 
