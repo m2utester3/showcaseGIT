@@ -17,108 +17,105 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-not_run: Mobile.startExistingApplication('com.maybank2u.life')
-
 Mobile.startApplication('com.maybank2u.life', false)
+
+WebUI.delay(1)
 
 Mobile.takeScreenshot()
 
-not_run: Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Maybank2u'), 0)
+Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Maybank2u'), 0)
 
-not_run: Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Maybank2u'), 0)
+Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Maybank2u'), 0)
 
-not_run: Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Enter your 6-digit PIN'), 
-    0)
+Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Enter your 6-digit PIN'), 0)
 
-not_run: Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\MAE\\2.png', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\MAE\\2.png', FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - 1'), 0)
+Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - 1'), 0)
 
-not_run: Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - 1'), 0)
+Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - 1'), 0)
 
-not_run: Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - 1'), 0)
+Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - 1'), 0)
 
-not_run: Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - 1'), 0)
+Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - 1'), 0)
 
-not_run: Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - 1'), 0)
+Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - 1'), 0)
 
-not_run: Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - 1'), 0)
+Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - 1'), 0)
 
-not_run: Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Total Balance'), 0)
+Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Total Balance'), 0)
 
-not_run: Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Savings Account-i'), 0)
+Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Savings Account-i'), 0)
 
-not_run: Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\MAE\\3.png', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\MAE\\3.png', FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Savings Account-i'), 0)
+Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Savings Account-i'), 0)
 
-not_run: Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - View Transactions'), 0)
+Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - View Transactions'), 0)
 
-not_run: Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Transfer'), 0)
+Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Transfer'), 0)
 
-not_run: Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Transfer'), 0)
+Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Transfer'), 0)
 
-not_run: Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.EditText - M2U password'), 0)
+Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.EditText - M2U password'), 0)
 
-not_run: Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\MAE\\4.png', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\MAE\\4.png', FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: Mobile.setText(findTestObject('MAE Transfer/android.widget.EditText - M2U password'), 'Mayesha@2', 0)
+Mobile.setText(findTestObject('MAE Transfer/android.widget.EditText - M2U password'), 'Mayesha@2', 0)
 
-not_run: Mobile.hideKeyboard()
+Mobile.hideKeyboard()
 
-not_run: Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Continue'), 0)
+Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Continue'), 0)
 
-not_run: Mobile.tap(findTestObject('MAE Transfer/android.widget.TextView - Continue'), 0)
+Mobile.tap(findTestObject('MAE Transfer/android.widget.TextView - Continue'), 0)
 
-not_run: WebUI.delay(5)
+WebUI.delay(5)
 
-not_run: Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\MAE\\5.png', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\MAE\\5.png', FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - MAE'), 0)
+Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - MAE'), 0)
 
-not_run: Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Enter amount'), 0)
+Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Enter amount'), 0)
 
-not_run: Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - 1 (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - 1 (1)'), 0)
 
-not_run: Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\MAE\\6.png', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\MAE\\6.png', FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.ImageView'), 0)
 
-not_run: Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Enter recipient reference'), 
-    0)
+Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Enter recipient reference'), 0)
 
-not_run: Mobile.setText(findTestObject('Object Repository/MAE Transfer/android.widget.EditText'), 'self transfer', 0)
+Mobile.setText(findTestObject('Object Repository/MAE Transfer/android.widget.EditText'), 'self transfer', 0)
 
-not_run: Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\MAE\\7.png', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\MAE\\7.png', FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: Mobile.hideKeyboard()
+Mobile.hideKeyboard()
 
-not_run: Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Continue (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Continue (1)'), 0)
 
-not_run: Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Transfer Now'), 0)
+Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Transfer Now'), 0)
 
-not_run: Mobile.tap(findTestObject('MAE Transfer/android.widget.TextView - Transfer Now'), 0)
+Mobile.tap(findTestObject('MAE Transfer/android.widget.TextView - Transfer Now'), 0)
 
-not_run: Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\MAE\\8.png', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\MAE\\8.png', FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Transfer successful'), 
-    0)
+Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Transfer successful'), 0)
 
-not_run: Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\MAE\\9.png', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\MAE\\9.png', FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - 501652585M'), 0)
+Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - 501652585M'), 0)
 
-not_run: Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Share Receipt'), 0)
+Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Share Receipt'), 0)
 
-not_run: Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Successful'), 0)
+Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Successful'), 0)
 
-not_run: Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\MAE\\10.png', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\MAE\\10.png', FailureHandling.CONTINUE_ON_FAILURE)
 
-not_run: Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.ImageView (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.ImageView (1)'), 0)
 
-not_run: Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Done'), 0)
+Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Done'), 0)
 
-not_run: Mobile.tap(findTestObject('MAE Transfer/android.widget.TextView - Done'), 0)
+Mobile.tap(findTestObject('MAE Transfer/android.widget.TextView - Done'), 0)
 
-not_run: Mobile.closeApplication()
+Mobile.closeApplication()
 
