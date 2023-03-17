@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('com.maybank2u.life', false)
+Mobile.startExistingApplication('com.maybank2u.life', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(1)
 
@@ -57,16 +57,12 @@ Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.Tex
 
 Mobile.tap(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Transfer'), 0)
 
-Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.EditText - M2U password'), 0)
-
 Mobile.takeScreenshot('C:\\Users\\00123955\\git\\screenshot\\MAE\\4.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.setText(findTestObject('MAE Transfer/android.widget.EditText - M2U password'), findTestData('DevOps').getValue(2, 
         1), 0)
 
 Mobile.hideKeyboard()
-
-Mobile.getText(findTestObject('Object Repository/MAE Transfer/android.widget.TextView - Continue'), 0)
 
 Mobile.tap(findTestObject('MAE Transfer/android.widget.TextView - Continue'), 0)
 
